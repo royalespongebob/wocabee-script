@@ -3,7 +3,7 @@
 
 ---
 
-## how to run script
+### how to run script
 
 1. go to practice all page
 2. click continue and switch mode to 2 points per question
