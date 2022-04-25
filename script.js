@@ -14,6 +14,12 @@ setInterval(() => {
     inputBox.value = result.getAttribute("translation");
     setTimeout(() => {
         submitBtn.click();
-    }, 200); 
+    }, 200); // make sure this value is smaller than the one under
     console.clear();
 }, 3000); // change value in ms to call function in a certain interval
+
+// removing animations that stop our script from getting a streak
+
+document.querySelector("#correct").remove();
+document.querySelector("#incorrect").remove();
+document.querySelector("#wocaPointsReward").remove();
