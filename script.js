@@ -15,6 +15,6 @@ setInterval(() => {
     inputBox.value = result.getAttribute("translation");
     setTimeout(() => {
         submitBtn.click();
-    }, 200);
+    }, 200); 
     console.clear();
-}, 3000);
+}, 3000); // change value in ms to call function in a certain interval
