@@ -17,7 +17,3 @@ setInterval(() => {
     }, 200); 
     console.clear();
 }, 3000); // change value in ms to call function in a certain interval
-
-setInterval(() => {
-
-}, 3000);
