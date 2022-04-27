@@ -1,15 +1,21 @@
-# wocabee-script
-### a script to automatically practice wocabee
+# Vocabee Automation Script
 
----
+Vocabee Automation Script is a javascript script that automates the process of practicing vocabulary.
 
-### how to run script
+## Installation
 
-1. go to practice all page
-2. click continue and switch mode to 2 points per question
-3. open console by pressing f12 or ctrl + shift + i and switch to console tab
-4. copy the code from script.js file
-5. paste the copied code into console
-6. adjust some settings if necessary
-7. enjoy watching your wocabee practice itself
+Open Developer Tool using F12 and click on the "Console" tab.
 
+```javascript
+var script=document.createElement('script');script.src='https://raw.githubusercontent.com/royalespongebob/wocabee-script/main/script.js';document.body.appendChild(script)
+```
+
+## Contributing
+Pull requests are welcome. 
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[GNU](https://choosealicense.com/licenses/gpl-3.0/)
