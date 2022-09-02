@@ -14,9 +14,9 @@ setInterval(() => {
     inputBox.value = result.getAttribute("translation");
     setTimeout(() => {
         submitBtn.click();
-    }, 5); // make sure this value is smaller than the one under
+    }, 1); // make sure this value is smaller than the one under
     console.clear();
-}, 10); // change value in ms to call function in a certain interval
+}, 2); // change value in ms to call function in a certain interval
 
 // removing animations that stop our script from getting a streak
 
