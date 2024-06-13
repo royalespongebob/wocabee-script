@@ -23,3 +23,7 @@ setInterval(() => {
 document.querySelector("#correct").remove();
 document.querySelector("#incorrect").remove();
 document.querySelector("#wocaPointsReward").remove();
+
+document.querySelector("#correct").remove();
+document.querySelector("#incorrect").remove();
+document.querySelector("#wocaPointsReward").remove();
