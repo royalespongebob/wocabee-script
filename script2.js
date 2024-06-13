@@ -1,19 +1,23 @@
 setInterval(() => {
     let original = document.querySelector("#tfw_word").innerText;
     let elementsList [...$locWords];
-    let inputBox = document.querySelector("#translateWordAnswer");
-    let submitBtn = document.querySelector("#translateWordSubmitBtn");
+    let inputBox = document.querySelector("#translateFallingWordAnswer");
+    let submitBtn = document.querySelector("#translateFallingWordSubmitBtn");
 
     let result = elementsList.find(element => {
-        if (element.getAttribute("word") == original) {
+        if (element.word == original || element.translation == original) {
             return element;
         }
     });
 
     submitBtn.disabled = false;
-    inputBox.value = result.getAttribute("translation");
+    if (result.word == original) {
+        inputBox.value = result.translation;
+    } else if (result.translation == original) {
+        inputBox.value = result.word;
+    }
     setTimeout(() => {
         submitBtn.click();
-    }, 0); // make sure this value is smaller than the one under
+    }, 0); 
     console.clear();
-}, 8); // change value in ms to call function in a certain interval
+}, 1000); 
