@@ -21,3 +21,7 @@ setInterval(() => {
     }, 0); 
     console.clear();
 }, 1000); 
+
+document.querySelector("#correct").remove();
+document.querySelector("#incorrect").remove();
+document.querySelector("#wocaPointsReward").remove();
