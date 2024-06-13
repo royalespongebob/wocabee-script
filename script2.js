@@ -1,6 +1,6 @@
 setInterval(() => {
-    let original = document.querySelector("#q_word").innerText;
-    let elementsList = [...document.querySelectorAll(".locWord")];
+    let original = document.querySelector("#tfw_word").innerText;
+    let elementsList [...$locWords];
     let inputBox = document.querySelector("#translateWordAnswer");
     let submitBtn = document.querySelector("#translateWordSubmitBtn");
 
