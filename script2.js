@@ -20,7 +20,7 @@ setInterval(() => {
         submitBtn.click();
     }, 0); 
     console.clear();
-}, 1000); 
+}, 10); 
 
 document.querySelector("#correct").remove();
 document.querySelector("#incorrect").remove();
